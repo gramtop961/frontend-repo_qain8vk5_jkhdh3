@@ -20,28 +20,28 @@ export default function Hero() {
           >
             <span className="inline-flex items-center gap-2 rounded-full border border-teal-500/30 bg-teal-500/10 px-3 py-1 text-xs font-medium tracking-wide text-teal-300">
               <Zap className="h-3.5 w-3.5" />
-              Growth • Performance • Brand
+              SaaS • Marketing OS
             </span>
             <h1 className="text-balance text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
-              Digital Marketing that feels modern, measurable, and magnetic.
+              The modern way to plan, launch, and scale digital marketing.
             </h1>
             <p className="text-pretty text-slate-300/80 md:text-lg">
-              I craft data-driven campaigns, thoughtful brand systems, and sleek experiences that convert. Smooth motion, clean visuals, and clear results.
+              A clean, fast marketing workspace for campaigns, content, and analytics. Minimal UI, smooth motion, clear results.
             </p>
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <a
-                href="#projects"
+                href="#pricing"
                 className="group inline-flex items-center gap-2 rounded-full bg-teal-500 px-5 py-2.5 text-sm font-medium text-slate-900 shadow-[0_10px_30px_-10px_rgba(20,184,166,0.7)] transition-transform hover:-translate-y-0.5 hover:shadow-[0_18px_40px_-12px_rgba(20,184,166,0.6)]"
               >
                 <Rocket className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-                View projects
+                Get started
               </a>
               <a
-                href="#skills"
+                href="#features"
                 className="inline-flex items-center gap-2 rounded-full border border-slate-700/80 bg-slate-800/40 px-5 py-2.5 text-sm text-slate-200 hover:border-slate-600"
               >
                 <Wand2 className="h-4 w-4" />
-                Capabilities
+                Book a demo
               </a>
             </div>
           </motion.div>
@@ -54,7 +54,7 @@ export default function Hero() {
           transition={{ duration: 0.9, ease: 'easeOut' }}
           className="relative z-10 h-[420px] w-full max-w-2xl overflow-hidden rounded-2xl border border-slate-800/60 bg-slate-900/30 shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_20px_60px_-20px_rgba(0,0,0,0.6)] md:h-[540px]"
         >
-          <Spline scene="https://prod.spline.design/wwTRdG1D9CkNs368/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+          <Spline scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode" style={{ width: '100%', height: '100%' }} />
 
           {/* Subtle top gradient to blend with page; doesn't block pointer events */}
           <div className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#0b0d12] to-transparent" />
